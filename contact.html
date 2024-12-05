@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Together</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Journey Together</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="travels.html">Travels</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <form action="emailform.php" method="post" name="DGME169form" id="DGMEform">
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="name">Name:</label>
+            <input name="name" type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input name="email" type="text" id="email">
+
+            <label for="phone">Phone:</label>
+            <input name="phone" type="text" id="phone">
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Program of Interest</strong></legend>
+
+            <label>
+            <input name="uiuxdesign" type="checkbox" id="uiuxdesign" value="uiux">UI/UX Design</label>
+
+            <label>
+                <input name="graphics" type="checkbox" id="graphics" value="graph">Graphic Design</label>
+        
+            <label>
+                <input name="web" type="checkbox" id="web" value="web">Web Design</label>        
+            
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>How did you hear about us?</strong></legend>
+
+            <label><input type="radio" name="semester" value="linkedin" id="linkedin">Linkedin</label>
+            <label><input type="radio" name="semester" value="google search" id="google search">Google Search</label>
+            <label><input type="radio" name="semester" value="instagram" id="instagram">Instagram</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Project Length</strong></legend>
+
+            <select name="length" id="length">
+                <option value="length">Choose Project Length</option>
+                <option value="1-3 months">1-3 months</option>
+                <option value="3-6 months">3-6 months</option>
+                <option value="6-9 months">3-9 months</option>
+                <option value="9-12 months">9-12 months</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Comments</strong></legend>
+
+            <label for="comments">Message:</label>
+            <textarea name="message" id="message" cols="60" rows="5"></textarea>
+            
+        </fieldset>
+
+        <p>
+            <input type="submit" name="submit" id="submit" value="Submit Form">
+            <input type="reset" name="reset" id="reset" value="Clear Form">
+        </p>
+    </form>
+
+    <footer>
+        <p>Journey Together</p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="travels.html">Travels</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#"><img class="icon" src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img class="icon" src="youtube-icon.png" alt="YouTube"></a>
+            <a href="#"><img class="icon" src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
